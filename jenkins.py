@@ -3,7 +3,7 @@ import sys
 
 print("")
 
-print("Hi there and thank you for visiting.\n ")
+print"Hi there and thank you for visiting.\n ")
 info = input("Plaese enter your name: ")
 
 print("")
