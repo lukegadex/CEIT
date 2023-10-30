@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('version') {
             steps {
-                sh 'python --version'
+                sh 'python3 --version'
             }
         }
         stage('jenkins') {
