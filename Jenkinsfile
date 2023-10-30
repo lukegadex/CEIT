@@ -2,19 +2,14 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('version') {
             steps {
-                echo 'Building..'
+                sh 'python --version'
             }
         }
-        stage('Test') {
+        stage('jenkins') {
             steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
+                sh 'python3 jenkins.py'
             }
         }
     }
