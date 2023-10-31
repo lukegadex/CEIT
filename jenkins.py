@@ -27,8 +27,6 @@ try:
     if info2 == yes:
         print("One cup of tea comming right up! ")
 except NameError: pass
-
-# elif info2 == no:
-#     print(" You must not like tea haa! ")
      else:
           sys.exit("You must not like tea Haah!\nThanks for visiting anyways.\n\n ")
+         
