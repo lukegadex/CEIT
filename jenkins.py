@@ -23,8 +23,11 @@ print("")
 yes = "y"
 no = "n"
 
-if info2 == yes:
+try:
+    if info2 == yes:
     print("One cup of tea comming right up! ")
+except NameError: pass
+
 # elif info2 == no:
 #     print(" You must not like tea haa! ")
 else:
