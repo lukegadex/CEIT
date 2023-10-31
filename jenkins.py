@@ -12,11 +12,11 @@ try:
 except:
        print("EOF")
 
+print("")
+info2 = str(input("Hello " + info + " would you like a cup of tea. [y\\n]"))
 try: info = raw_input
 except NameError: pass
 
-print("")
-info2 = str(input("Hello " + info + " would you like a cup of tea. [y\\n]"))
 
 print("")
 yes = "y"
