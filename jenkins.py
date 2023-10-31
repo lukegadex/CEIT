@@ -15,7 +15,10 @@ except:
 
 print("")
 
+try: input = raw_input
+except NameError: pass
 info2 = str(input("Hello " + info + " would you like a cup of tea. [y\\n]"))
+
 print("")
 yes = "y"
 no = "n"
