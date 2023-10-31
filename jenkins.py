@@ -30,5 +30,5 @@ except NameError: pass
 
 # elif info2 == no:
 #     print(" You must not like tea haa! ")
-else:
-    sys.exit("You must not like tea Haah!\nThanks for visiting anyways.\n\n ")
+     else:
+          sys.exit("You must not like tea Haah!\nThanks for visiting anyways.\n\n ")
