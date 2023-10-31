@@ -15,7 +15,7 @@ except:
 
 print("")
 
-info2 = input("Hello " + info + " would you like a cup of tea. [y\\n]")
+info2 = str(input("Hello " + info + " would you like a cup of tea. [y\\n]"))
 print("")
 yes = "y"
 no = "n"
