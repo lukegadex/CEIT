@@ -13,8 +13,9 @@ except:
        print("EOF")
 
 print("")
-info2 = str(input("Hello " + info + " would you like a cup of tea. [y\\n]"))
-try: info = raw_input
+
+try:
+    info2 = str(input("Hello " + info + " would you like a cup of tea. [y\\n]"))
 except NameError: pass
 
 
