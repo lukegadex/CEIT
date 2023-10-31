@@ -9,14 +9,11 @@ print("Hi there and thank you for visiting.\n ")
 try:
 
     info = input("Plaese enter your name: ")
-
+    info = str(input())
 except:
        print("EOF")
 
 print("")
-
-try: input = raw_input
-except NameError: pass
 info2 = str(input("Hello " + info + " would you like a cup of tea. [y\\n]"))
 
 print("")
