@@ -4,7 +4,14 @@ import sys
 print("")
 
 print("Hi there and thank you for visiting.\n ")
-info = input("Plaese enter your name: ")
+
+
+try:
+
+    info = input("Plaese enter your name: ")
+
+except:
+       print("EOF")
 
 print("")
 
