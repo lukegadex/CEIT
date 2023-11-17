@@ -8,7 +8,7 @@ print("Hi there and thank you for visiting.\n ")
 
 try:
 
-    info = input"Plaese enter your name: ")
+    info = input("Plaese enter your name: ")
 except:
        print("EOF")
 
