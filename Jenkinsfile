@@ -14,8 +14,7 @@ pipeline {
         }
         stage('Email Notification') {
             steps {
-                mail bcc: '', body: 'Test has failed.', cc: '', from: '', replyTo: '', subject: 'Jenkins Code Test', to: 'lukeceit57@gmail.com'
-            }
+                mail bcc: '', body: 'Testing Pipeline Script', cc: '', from: '', replyTo: '', subject: '', to: 'lukeceit57@gmail.com, blaisekilang4@gmail.com, jasmineejack@gmail.com'
         }
     }
 }
