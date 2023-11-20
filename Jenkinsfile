@@ -23,10 +23,10 @@ pipeline {
     post {
         success {
                mail bcc: '', body: '''Build has been successful. Refer to the link for an insight 
-                    https://github.com/jasminejack12345/ann.git''', cc: '', from: '', replyTo: '', subject: 'CI/CD Pipeline', to: 'jasmineejack@gmail.com, jahno743@gmail.com, blaisekilang4@gmail.com, lukegadebo@gmail.com'          
+                    https://github.com/jasminejack12345/ann.git''', cc: '', from: '', replyTo: '', subject: 'CI/CD Pipeline', to: 'jasmineejack@gmail.com, jahno743@gmail.com, blaisekilang4@gmail.com, lukeceit57@gmail.com'          
         }
         failure {
-            mail bcc: '', body: 'For more infor on the pipeline failure, tap the link and build jenkinsfile to checkout the console output at https://github.com/jasminejack12345/ann.git', cc: '', from: '', replyTo: '', subject: 'CI/CD pipeline Build has failed,', to: 'anneludemejay@gmail.com, jahno743@gmail.com, blaisekilang4@gmail.com, lukegadebo@gmail.com'
+            mail bcc: '', body: 'Acertain stage in the bulild has failed checkout the console output at https://github.com/lukegadex/CEIT.git', cc: '', from: '', replyTo: '', subject: 'CI/CD pipeline Build has failed,', to: 'anneludemejay@gmail.com, jahno743@gmail.com, blaisekilang4@gmail.com, lukeceit57@gmail.com'
            }
        }
 }         
