@@ -26,7 +26,7 @@ pipeline {
                     https://github.com/jasminejack12345/ann.git''', cc: '', from: '', replyTo: '', subject: 'CI/CD Pipeline', to: 'jasmineejack@gmail.com, jahno743@gmail.com, blaisekilang4@gmail.com, lukeceit57@gmail.com'          
         }
         failure {
-            mail bcc: '', body: 'Acertain stage in the bulild has failed checkout the console output at https://github.com/lukegadex/CEIT.git', cc: '', from: '', replyTo: '', subject: 'CI/CD pipeline Build has failed,', to: 'anneludemejay@gmail.com, jahno743@gmail.com, blaisekilang4@gmail.com, lukeceit57@gmail.com'
+            mail bcc: '', body: 'A certain stage in the bulild has failed checkout SCM at https://github.com/lukegadex/CEIT.git', cc: '', from: '', replyTo: '', subject: 'CI/CD pipeline Build has failed,', to: 'anneludemejay@gmail.com, jahno743@gmail.com, blaisekilang4@gmail.com, lukeceit57@gmail.com'
            }
        }
 }         
